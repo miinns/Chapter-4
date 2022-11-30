@@ -9,7 +9,7 @@ class CallByReferenceApp
     }
     public static void Main()
     {
-        int x = 1, y = 2; // x, y 값 
+        int x = 1, y = 2; // x, y 값
         Console.WriteLine("Before: x = {0}, y = {1}", x, y);
         Swap(ref x, ref y);
         Console.WriteLine(" After: x = {0}, y = {1}", x, y);
