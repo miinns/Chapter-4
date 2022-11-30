@@ -19,7 +19,7 @@ class MethodOverloadingApp
     {
         Console.WriteLine("SomeThing(double) is called.");
     }
-    // 객체
+    // 객
     public static void Main()
     {
         MethodOverloadingApp obj = new MethodOverloadingApp();
