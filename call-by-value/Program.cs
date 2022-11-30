@@ -9,7 +9,7 @@ class CallByValueApp
     }
     public static void Main()
     {
-        int x = 1, y = 2; // x, y 값 
+        int x = 1, y = 2; // x, y 
         Console.WriteLine("Before: x = {0}, y = {1}", x, y);
         Swap(x, y);
         Console.WriteLine(" After: x = {0}, y = {1}", x, y);
