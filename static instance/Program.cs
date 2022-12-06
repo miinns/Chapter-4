@@ -5,7 +5,6 @@ public class StaticVsInstanceApp
     static int staticVariable;
     public static void Main()
     {
-        
         StaticVsInstanceApp obj = new StaticVsInstanceApp();
         obj.instanceVariable = 10;
                                   
